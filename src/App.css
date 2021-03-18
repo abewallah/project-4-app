@@ -1,0 +1,78 @@
+/* body {
+  padding: 0;
+  margin: 0;
+} */
+
+/*=============== HomePage Header (Header) =========================*/
+header,
+.landingPage {
+  background-image: url('https://previews.123rf.com/images/shopplaywood/shopplaywood1708/shopplaywood170800079/84570659-cartoon-character-cute-robot-seamless-pattern-whith-chat-bubble-outline-stroke-pictogram-vector-on-w.jpg');
+  background-attachment: fixed;
+  height: 50vh;
+}
+
+.headerText {
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 3px;
+  background-color: rgb(197, 187, 187);
+  width: 180px;
+  margin: 0 auto;
+}
+
+/*===================== ProfilePage ======================== */
+.profileContainer {
+  margin: 40px auto;
+}
+.profileTitle {
+  color: black;
+}
+.profilePara {
+  text-decoration: dotted;
+}
+.profileDeleteBtn {
+  width: 20%;
+  align-self: center;
+}
+
+/*===================== Section of the HomePage (Page) ======================== */
+.sectionCont section {
+  margin-bottom: 10px;
+}
+.sectionCard {
+  width: 100%;
+}
+
+/*======================= Chatroom (left-side) ===================================== */
+.chatCardCont {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-end;
+  align-content: flex-end;
+}
+
+.chatroomImgBtn:hover {
+  cursor: pointer;
+  background-color: rgba(119, 212, 212, 0.228);
+}
+.chatroomBtnDiv {
+  margin-left: 50px;
+}
+.chatroomBtn {
+  cursor: pointer;
+}
+.chatroomBtn:hover {
+  cursor: pointer;
+  background-color: rgba(50, 96, 96, 0.125);
+}
+.deleteChatroomBtn {
+  cursor: pointer;
+}
+/*======================= Footer =================================================== */
+.footer {
+  position: fixed;
+  bottom: 0px;
+  height: 25px;
+  width: 100%;
+  text-align: center;
+}

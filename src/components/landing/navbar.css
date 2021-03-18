@@ -1,0 +1,12 @@
+/*=============== NavBar =========================*/
+ .navBtn button{
+    border: none;
+    background: none;
+    color: unset;
+    
+}
+ .navBtn a:hover{
+    background-color: rgb(168, 175, 173);
+    cursor: pointer;
+    
+}
